@@ -32,8 +32,8 @@
 
 #navbar__logo {
     background-color: rgb(255, 62, 62);
-    background-image: linear-gradient(to right, #e98800, #ffbb00);
-    background-size: 80%;
+    background-image: linear-gradient(to right, #49c5ff, #f700ff);
+    background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -86,8 +86,8 @@
     outline: none;
     border-radius: 4px;
     background: #ffffff;
-    background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
-    background: linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
+    background: -webkit-linear-gradient(to right, #49c5ff,#f700ff);
+    background: linear-gradient(to right, #49c5ff,#f700ff);
     color: #fff;
     transition: all 0.3s ease;
 }
@@ -220,8 +220,8 @@
 
 .hero__heading span {
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #e98800,#ffbb00);
-    background: linear-gradient(to right, #e98800,#ffbb00);
+    background: -webkit-linear-gradient(to right, #49c5ff,#f700ff);
+    background: linear-gradient(to right, #49c5ff,#f700ff);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -234,8 +234,8 @@
 .hero__description {
     font-size: 60px;
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #e98800,#ffbb00);
-    background: linear-gradient(to right, #e98800,#ffbb00);
+    background: -webkit-linear-gradient(to right, #49c5ff,#f700ff);
+    background: linear-gradient(to right, #49c5ff,#f700ff);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -285,7 +285,7 @@
 .main__content h1 {
     font-size: 3rem;
     background-color: rgb(255, 62, 62);
-    background-image: linear-gradient(to right, rgb(255, 144, 41) 0%, #ffbb00 100%);
+    background-image: linear-gradient(to right, #49c5ff 0%, #f700ff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -309,8 +309,8 @@
 .main__btn {
     font-size: 1.7rem;
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
-    background: linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
+    background: -webkit-linear-gradient(to right, #49c5ff,#f700ff);
+    background: linear-gradient(to right, #49c5ff,#f700ff);
     padding: 15px 45px;
     border: none;
     border-radius: 4px;
@@ -336,7 +336,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #ec18ff;
+    background: #49c5ff;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -372,8 +372,8 @@
 
 #card-2 {
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
-    background: linear-gradient(to right, #fcb045,#fd1d1d,#833ab4);
+    background: -webkit-linear-gradient(to right, #49c5ff,#f700ff);
+    background: linear-gradient(to right, #49c5ff,#f700ff);
 }
 
 @media screen and (max-width: 1100px) {
@@ -460,7 +460,7 @@
 
 .services h1 {
     background: #ff8f4f;
-    background: linear-gradient(to right, #e98800,#ffbb00);
+    background: linear-gradient(to right, #49c5ff,#f700ff);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -558,11 +558,15 @@
 @media screen and (max-width: 1300px) {
     .services__wrapper {
         grid-template-columns: 1fr;
+        padding: 0 30px;
+        width: auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .services__wrapper {
         grid-template-columns: 1fr;
+        padding: 1rem;
+        width: auto;
     }
 }
